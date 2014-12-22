@@ -1,0 +1,26 @@
+Viewing a diff helped find bugs between two versions of a file, by showing the line numbers where the corresponding files changed.
+
+Looking through them we can spot the bug.
+Use short lines to have the diff be more
+effective.
+
+Easy access to the entire history of a file
+gives fast access to changes, which can be tried out
+induvidually. Hence making me a better programmer.
+
+Manual saving means that we can create versions having meaning.
+
+Multi file commits can be used to store a whole snapshot of the current
+repository and it can be used with git diff to view the changes in both the
+commits.
+
+Multi File commits allow users to store changes in files that are
+interconnected.
+
+Viewing history can be done by git log --stat or git log
+git diff <commitid 1> <commit id2> can be done to compare 2 commits
+
+Git makes me more confident to make mistakes because I can always checkout previous
+states before commits using git checkout <commit id> 
+
+I want to use git for writing my projects from now on. :)
