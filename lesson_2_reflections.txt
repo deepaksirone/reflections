@@ -8,4 +8,6 @@ The working directory contains the repository and the .git directory.
 
 The staging area has all the files that are to be included in the next commit. We can choose to add the files which we want to take a snapshot of. 
 
+Branches can be used to do experiments with your projects, isolated from the main master branch. The master branch is the default branch. It gives me more freedom to experiment.
+
 

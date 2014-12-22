@@ -23,4 +23,5 @@ git diff <commitid 1> <commit id2> can be done to compare 2 commits
 Git makes me more confident to make mistakes because I can always checkout previous
 states before commits using git checkout <commit id> 
 
+
 I want to use git for writing my projects from now on. :)
