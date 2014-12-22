@@ -1,0 +1,11 @@
+
+When initializing a repository, git creates a .git file and it contains all the metadata for the git repository. 
+Initially there are no commits.
+
+Initialize a repository using git init. and check the status using git status.
+
+The working directory contains the repository and the .git directory.
+
+The staging area has all the files that are to be included in the next commit. We can choose to add the files which we want to take a snapshot of. 
+
+
