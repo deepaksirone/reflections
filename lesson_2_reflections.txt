@@ -10,4 +10,10 @@ The staging area has all the files that are to be included in the next commit. W
 
 Branches can be used to do experiments with your projects, isolated from the main master branch. The master branch is the default branch. It gives me more freedom to experiment.
 
+To create a new branch 
+	git branch <branch name>
+	git checkout <branch name>
 
+The detached HEAD warning is shown when we checkout a previous commit and any extra commits we make from there are not reacheable from any branch.
+
+Diagrams help me visualize the branch structure, because the parent of each commit is clearly visible and so are the unreachable commits made from a detached head state. 
