@@ -26,3 +26,18 @@ To merge use git merge <branch 1> <branch 2>
 
 The commit made for merging has 2 parents, one for each branch. 
 Git log shows the commits in chronological order.
+
+git show <commit id> can be used to show the changes between a commit and its parent
+
+Pros of git automerge
+_____________________
+1) Can easily merge two branches, with very less user intervention
+2) Logs can be viewed easily
+
+Cons
+____
+1) Cannot merge ambiguous changes without user intervention
+ 
+
+
+
