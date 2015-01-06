@@ -16,4 +16,13 @@ To create a new branch
 
 The detached HEAD warning is shown when we checkout a previous commit and any extra commits we make from there are not reacheable from any branch.
 
-Diagrams help me visualize the branch structure, because the parent of each commit is clearly visible and so are the unreachable commits made from a detached head state. 
+Diagrams help me visualize the branch structure, because the parent of each commit is clearly visible and so are the unreachable commits made from a detached head state.
+
+Merging two branches together creates a single commit, which merges the changes made to both the branches. 
+
+The strategy followed is to incorporate changes with respect to the commit made before the branch.
+
+To merge use git merge <branch 1> <branch 2> 
+
+The commit made for merging has 2 parents, one for each branch. 
+Git log shows the commits in chronological order.
